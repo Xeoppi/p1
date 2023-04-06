@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magazin produse pentru unghii</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+  <button onclick="topFunction()" id="sus" title="Înapoi sus"><i class="fa fa-angle-up"></i></button>
+
+  <header>
+    <div id="dark_head"></div>
+    <nav id="desktop_menu">
+      <a id="logo" href="#">Logo</a>
+
+      <ul>
+        <li><a href="index.html">Acasa</a></li>
+      </ul>
+      <ul>
+        <li><a href="options/services.html">Servicii</a></li>
+      </ul>
+      <ul>
+        <li><a href="">Despre noi</a></li>
+      </ul>
+        
+
+      <a class="log_reg" href="options/log_sign.html" style="color: black">Login & Sign Up</a>
+    </nav>
+
+    <div id="banner">
+      <h1 style="color: white; font-weight: 100; font-size: 40px; text-shadow: 0px 5px 10px black">Nail Obsession - Produse de calitate pentru unghii și frumusețe</h1>
+    </div>
+  </header>
+
+  <nav id="instrument_panel_desk" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="cont_instr_pan" class="container-fluid" style="justify-content: space; flex-wrap: nowrap;">
+      <div>
+        <button id="catDeskBtn" onclick="show_catalogDesk()"><i class="fas fa-list" style="font-size: 20px;"></i> <span> Produsele noastre</span></button>
+      </div>
+      <h5 id="catMobBtn" onclick="show_catalogMob()"><i class="fa-solid fa-chevron-down"></i> <span style="font-size: 40px;"> Produsele noastre</span></h5>
+      <div id="funcs1" class="justify-content-end align-items-center">
+        <form class="d-flex" action="options/politic.html">
+          <input id="search_input1" class="form-control me-0" type="search" placeholder="Caută" aria-label="Search">
+          <button style="box-shadow: 0px 0px 3px black" id="search_button1" class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <a style="" class="btn btn-outline-secondary ms-3" href="#"><i class="fas fa-heart"></i></a>
+        <span style="transform: translate(-5px, 15px)" class="badge bg-danger rounded-circle">2</span>
+        <a style="" class="btn btn-outline-secondary ms-3" href="#"><i class="fas fa-basket-shopping"></i></a>
+        <span style="transform: translate(-5px, 15px)" class="badge bg-danger rounded-circle">6</span>
+        <a style="" class="btn btn-outline-secondary ms-3" href="#"><i class="fas fa-wallet"></i></a>
+        <span style="transform: translate(-5px, 15px)" class="badge bg-success rounded-circle">$100</span>
+      </div>
+    </div>
+  </nav>
+
+  <nav id="catDesk" class="navbar navbar-expand-lg bg-linght">
+      <div class="catComponents">
+        <a class="catalog_category" href="">OJE</a>
+        <div class="cat_detail"> 
+          <div style="width: 50%; display: flex; justify-content: center;">
+            <h3 style="position: absolute; text-align: left;">Oje</h3>
+            <img src="https://mounli.ro/media/catalog/product/cache/1/image/800x/040ec09b1e35df139433887a97daa66f/3/0/306_1_.jpg?v=1667375080" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Oje clasice</a></li>
+            <li><a href="">Oje semipermanente</a></li>
+            <li><a href="">Oje UV</a></li>
+            <li><a href="">Oje efecte speeciale</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">GELURI</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3 style="position: absolute; text-align: left;">Geluri</h3>
+            <img src="https://i.pinimg.com/564x/19/70/94/197094bf035ef50bee423d6a4c99290c.jpg" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Geluri UV monofazice</a></li>
+            <li><a href="">Geluri UV trifazice</a></li>
+            <li><a href="">Geluri LED</a></li>
+            <li><a href="">Geluri pentru construcție</a></li>
+            <li><a href="">Geluri pentru decor</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">TIPSURI</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3>Tipsuri</h3>
+            <img src="https://cdn.shopify.com/s/files/1/0803/2327/products/MG_5084-Recovered_copy_1000x1000.jpg?v=1580717193" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Tipsuri naturale (non-false)</a></li>
+            <li><a href="">Tipsuri false (acrilice/gel)</a></li>
+            <li><a href="">Tipsuri colorate</a></li>
+            <li><a href="">Tipsuri franțuzești</a></li>
+            <li><a href="">Tipsuri cu modele</a></li>
+            <li><a href="">Tipsuri stiletto</a></li>
+            <li><a href="">Tipsuri square</a></li>
+            <li><a href="">Tipsuri conffi/ballerina</a></li>
+            <li><a href="">Tipsuri amigdală</a></li>
+            <li><a href="">Tipsuri pentru pedichiură</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">ACRYL</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3>Acryl</h3>
+            <img src="data:image/jpeg;base64,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" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Acryl pudră</a></li>
+            <li><a href="">Acryl lichid</a></li>
+            <li><a href="">Acryl colorat</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">INSTRUMENTE</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3>Instrumente</h3>
+            <img src="https://img.freepik.com/premium-photo/nail-care-utensils-green-background-manicure-concept-flat-lay-flat-design_470418-213.jpg" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Pile</a></li>
+            <li><a href="">Pensete</a></li>
+            <li><a href="">Foarfeci</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">ACCESORII</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3>Accesorii</h3>
+            <img src="data:image/jpeg;base64,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" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Stickere</a></li>
+            <li><a href="">Pietre decorative</a></li>
+            <li><a href="">Perne si suporturi pentru mâneci</a></li>
+            <li><a href="">Adezivi și soluții</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">TEHNICA</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3>Tehnica</h3>
+            <img src="https://i5.walmartimages.com/asr/047e2125-9e09-491c-8c69-5430e5bff57a.19f35282dfb53bdf09812bdf7616de95.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Lămpi LED</a></li>
+            <li><a href="">Lămpi UV</a></li>
+            <li><a href="">Sterilizatoare</a></li>
+            <li><a href="">Freze</a></li>
+            <li><a href="">Aspiratoare</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="catComponents">
+        <a class="catalog_category" href="">ALTELE</a>
+        <div class="cat_detail">
+          <div style="width: 50%; display: flex; justify-content: center">
+            <h3>Altele</h3>
+            <img src="https://media.istockphoto.com/id/1346609130/photo/multicolored-blue-nail-art.jpg?b=1&s=170667a&w=0&k=20&c=6GE0JhNdf_H2cexO0l-tKHsxNOd-6gC68z54fRG8hhc=" alt="">
+          </div>
+          <ul style="width: 50%; margin-top: 50px">
+            <li><a href="">Decorațiuni pentru unghii</a></li>
+            <li><a href="">Accesorii pentru curățarea și îngrijirea unghiilor</a></li>
+            <li><a href="">Produse pentru tratarea unghiilor</a></li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  
+  <nav id="catMob">
+    <ul style="margin-top: 50px">
+      <li>
+        <a class="catalog_category2" href="">OJE</a>
+          <ul>
+            <li style="margin-bottom: 30px" ><a class="cat_subCategory2" href="">Oje clasice</a></li>
+            <li style="margin-bottom: 30px" ><a class="cat_subCategory2" href="">Oje semipermanente</a></li>
+            <li style="margin-bottom: 30px" ><a class="cat_subCategory2" href="">Oje UV</a></li>
+            <li style="margin-bottom: 30px" ><a class="cat_subCategory2" href="">Oje efecte speciale</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">GELURI</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Geluri UV monofazice</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Geluri UV trifazice</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Geluri LED</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Geluri pentru construcție</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Geluri pentru decor</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">TIPSURI</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri naturale (non-false)</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri flase (acrilice/gel)</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri colorate</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri franțuzești</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri cu modele</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri stiletto</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri square</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri conffi/ballerina</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri amigdală</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Tipsuri pentru pedichiură</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">ACRYL</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Acryl pudră</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Acryl lichid</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Acryl colorat</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">INSTRUMENTE</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Pile</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Pensete</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Foarfeci</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">ACCESORII</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Stickere</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Pietre decorative</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Perne si suporturi pentru mâneci</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Adezivi și soluții</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">TEHNICĂ</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Lămpi LED</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Lămpi UV</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Sterilizatoare</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Freze</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Aspiratoare</a></li>
+          </ul>
+      </li>
+      <li>
+        <a class="catalog_category2" href="">ALTELE</a>
+          <ul>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Decorațiuni pentru unghii</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Accesorii pentru curățarea și îngrijirea unghiilor</a></li>
+            <li style="margin-bottom: 30px"><a class="cat_subCategory2" href="">Produse pentru tratarea unghiilor</a></li>
+          </ul>
+      </li>
+    </ul>
+    <button onclick="show_catalogMob()" style="border: none; background: white"><i class="fa-solid fa-chevron-up fa-2xl"></i></button>
+  </nav>
+
+
+  <nav id="mobile_menu" class="navbar bg-body-tertiary fixed-top" style="height: 100px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="margin-left: calc(50% - 50px); width: 100px; border: 1px solid black;">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="width: 100px; height: 80px; font-size: 40px">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="width: 100%;">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-size: 44px;">Nail Obsession</h5>
+          <a href="options/log_sign.html" class="log_reg2"><i class="fas fa-user d-flex m-auto"></i></a>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="width: 100px; height: 65px; font-size: 40px"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="font-size: 34px">
+            <li class="nav-item">
+              <a style="" class="nav-link active" aria-current="page" href="#">Acasa</a>
+            </li>
+            <li class="nav-item">
+              <a style="" class="nav-link" href="options/services.html">Servicii</a>
+            </li>
+            <li class="nav-item">
+              <a style="" class="nav-link" href="#">Despre noi</a>
+            </li>
+            
+            <li class="nav-item">
+              <a style="" class="nav-link" href="options/politic.html">Politica de returnare</a>
+            </li>
+            <li class="nav-item">
+              <a style="" class="nav-link" href="options/politic.html">Politica de confidentionalitate</a>
+            </li>
+
+            <div id="funcs2" class="align-items-center" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+              <form class="d-flex">
+                <input style="margin-top: 30px; margin-left: 15px;" id="search_input1" class="form-control me-0" type="search" placeholder="Caută" aria-label="Search">
+                <button style="box-shadow: 0px 0px 2px black; margin-top: 10px; margin-top: 30px; width: 150px;" id="search_button1" class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+              <br>
+              <div style="margin-top: 20px">
+                <a style="" class="btn btn-outline-secondary ms-3" href="#"><i class="fas fa-heart"></i></a>
+                <span style="margin-left: -30px; transform: translateY(25px); font-size: 16px" class="badge bg-danger rounded-circle">2</span>
+                <a style="" class="btn btn-outline-secondary ms-3" href="#"><i class="fas fa-basket-shopping"></i></a>
+                <span style="margin-left: -30px; transform: translateY(25px); font-size: 16px" class="badge bg-danger rounded-circle">6</span>
+                <a style="" class="btn btn-outline-secondary ms-3" href="#"><i class="fas fa-wallet"></i></a>
+                <span style="margin-left: -30px; transform: translateY(25px); font-size: 16px" class="badge bg-success rounded-circle">$100</span>
+              </div>
+            </div>
+            <br>
+
+            <hr class="line">
+
+            <li class="nav-item" style="">
+              <span>Contacte:</span>
+              <br>
+              <!-- Adresa de email -->
+              <i class="bi bi-envelope-fill"><span>   nail-obsession@gmail.com</span></i>
+              <br>
+              <!-- Numărul de telefon -->
+              <i class="bi bi-telephone-fill"><span>   +373 068 197 770</span></i>
+              <br>
+              <!-- Locatia -->
+              <i class="bi bi-geo-fill"><span>    mun. Chisinau, str. Ion Creanga 2</span></i>
+            </li>
+          </ul>
+            
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="promo-container">  
+    <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/bg/bg2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kit-uri pentru manichiură</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/bg/bg2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kit-uri pentru manichiură</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/bg/bg2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kit-uri pentru manichiură</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/bg/bg2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kit-uri pentru manichiură</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="produs-menu1" style="text-align: center;">
+
+    <h1 style="font-family: 'Times New Roman', serif; padding-top: 50px">Produse în tendințe</h1>
+    <div class="row" style="margin: 0">
+
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 1</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 2</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 3</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 4</a></h3>
+                  <div class="price">$78.80</div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <a href="content/all_trend.html" class="all_articles">Toate articolele</a>
+
+  </div>
+
+  <div class="produs-menu1" style="text-align: center;">
+
+    <h1 style="font-family: 'Times New Roman', serif; padding-top: 50px">Produse pentru îngrijirea unghiilor</h1>
+    <div class="row" style="margin: 0">
+
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 1</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 2</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 3</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 4</a></h3>
+                  <div class="price">$78.80</div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <a href="content/all_nail_care.html" class="all_articles">Toate articolele</a>
+
+  </div>
+
+  <div class="produs-menu1" style="text-align: center;">
+
+    <h1 style="font-family: 'Times New Roman', serif; padding-top: 50px">Accesorii pentru manichiură</h1>
+    <div class="row" style="margin: 0">
+
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 1</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 2</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 3</a></h3>
+                  <div class="price">$66.90</div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6" style="">
+          <div class="product-grid">
+              <div class="product-image">
+                  
+                      <img class="pic-1" src="img/content/card_img1.jpg">
+                      <img class="pic-2" src="img/content/card_img2.jpg">
+                  
+                  <a href="" class="product-like-icon"><i class="far fa-heart"></i></a>
+                  <ul class="product-links">
+                      <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+              </div>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Product 4</a></h3>
+                  <div class="price">$78.80</div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <a href="content/all_manicure_accesories.html" class="all_articles">Toate articolele</a>
+
+  </div>
+
+  <hr width="80%" style="margin: auto">
+  <div class="produs-menu3" style="text-align: center;">
+
+    <h1 style="font-family: 'Times New Roman', serif; padding-top: 50px">Oferte speciale</h1>
+    <div class="container d-flex justify-content-center mt-100">  
+      <div class="row"> 
+        <div class="col-lg-3 col-md-6"> 
+          <div class="product-wrapper mb-45 text-center"> 
+            <div class="product-img"> 
+              
+                <img src="https://i.imgur.com/HxEEu5g.jpg" alt=""> 
+               
+              <span class="text-center"><i class="fa fa-dollar"></i> 43,000</span> 
+              <div class="product-action"> 
+                <div class="product-action-style"> 
+                  <a href="#"> <i class="fa fa-eye"></i></a> 
+                  <a href="#"> <i class="fa fa-heart"></i></a> 
+                  <a href="#"> <i class="fa fa-shopping-cart"></i></a> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="col-lg-3 col-md-6"> 
+          <div class="product-wrapper mb-45 text-center"> 
+            <div class="product-img"> 
+               
+                <img src="https://i.imgur.com/HxEEu5g.jpg" alt=""> 
+               
+              <span><i class="fa fa-dollar"></i> 41,000</span> 
+              <div class="product-action"> 
+                <div class="product-action-style"> 
+                  <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-eye"></i></a> 
+                  <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i></a> 
+                  <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i></a> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="col-lg-3 col-md-6"> 
+          <div class="product-wrapper mb-45 text-center"> 
+            <div class="product-img"> 
+               
+                <img src="https://i.imgur.com/HxEEu5g.jpg" alt=""> 
+               
+              <span><i class="fa fa-dollar"></i> 33,000</span> 
+              <div class="product-action"> 
+                <div class="product-action-style"> 
+                  <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-eye"></i></a> 
+                  <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i></a> 
+                  <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i></a> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="col-lg-3 col-md-6"> 
+          <div class="product-wrapper mb-45 text-center"> 
+            <div class="product-img"> 
+               
+                <img src="https://i.imgur.com/HxEEu5g.jpg" alt=""> 
+               
+                <span><i class="fa fa-dollar"></i> 23,000</span> 
+                <div class="product-action"> 
+                  <div class="product-action-style"> 
+                    <a class="action-plus" title="Quick View" data-toggle="modal" data-target="#exampleModal" href="#" data-abc="true"> <i class="fa fa-eye"></i></a> 
+                    <a class="action-heart" title="Wishlist" href="#" data-abc="true"> <i class="fa fa-heart"></i></a> 
+                    <a class="action-cart" title="Add To Cart" href="#" data-abc="true"> <i class="fa fa-shopping-cart"></i></a> 
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div>
+    </div>
+
+
+
+  <div id="pre-footer">
+    <p  style="color: #f2f2f2; font-weight: 300; font-size: 20px; text-shadow: 0px 5px 5px black; width: 550px; text-align: center; font-family: 'Times New Roman', serif;">Descoperă colecția noastră de produse premium pentru unghii și frumusețe la Nail Obsession, cu cele mai bune prețuri!</p>
+  </div>
+  <footer class="bg-dark text-white" style="">
+
+    <div style="width: 100%; display: flex; justify-content: center; flex-wrap: wrap;">
+      <div class="adress_case">
+        <i class="fa-solid fa-phone" style="font-size: 30px;"></i>
+        <p style="position: absolute; margin-top: 70px">+373 68 197 770</p>
+      </div>
+      <div class="adress_case">
+        <i class="fa-solid fa-envelope" style="font-size: 30px;"></i>
+        <p style="position: absolute; margin-top: 70px">nail-obsession@gmail.com</p>
+      </div>
+      <div class="adress_case">
+        <i class="fa-solid fa-location-dot" style="font-size: 30px;"></i>
+        <p style="position: absolute; margin-top: 70px">mun. Chisinau <br/> str.Ion Creanga 2</p>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-uppercase mb-3">Urmărește-ne</h5>
+          <ul class="list-unstyled">
+            <li><a href="#"><i style="width: 40px" class="fab fa-facebook fa-2x"></i> Nail Obsession</a></li>
+            <li><a href="#"><i style="width: 40px" class="fab fa-instagram fa-2x"></i> @nail_obsession</a></li>
+            <li><a href="#"><i style="width: 40px" class="fab fa-tiktok fa-2x"></i> @nail_obsession</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-uppercase mb-3">Abonează-te</h5>
+          <form class="d-flex">
+            <div class="form-group flex-fill">
+              <input type="email" class="form-control" placeholder="Adresa ta de email" style="border-radius: 5px 0px 0px 5px">
+            </div>
+            <button type="submit" class="btn btn-primary ml-2"><i class="fa-sharp fa-solid fa-paper-plane" style="color: #ffffff;"></i></button>
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-6" id="politicDesk">
+          <h5 class="text-uppercase mb-3">Politica noastră</h5>
+          <ul class="list-unstyled">
+            <li><a href="options/politic.html">Politica de returnare</a></li>
+            <li><a href="options/politic.html">Politica de confidențialitate</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5 pt-4 border-top" style="">
+        <div class="col-md-6 col-lg-8 mb-md-10 mb-4">
+        <p class="copyright mb-0">
+          © 2023 Nail Obsession ™
+        </p>
+        </div>
+        <div class="col-md-6 col-lg-8 mb-md-10 mb-4">
+        <p class="copyright mb-0">
+          Elaborat de <i class="fab fa-instagram"></i> <a href="">@cyborg_000</a>
+        </p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
